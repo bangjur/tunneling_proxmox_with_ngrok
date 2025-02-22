@@ -3,7 +3,7 @@
 disini saya melakukan eksperimen tentang bagaimana saya bisa mengakses proxmox yang ada di laptop bekas saya via internet (di luar network rumah). requirement nya tentu saja:
 1. laptop dengan proxmox terinstall dan bisa diakses via local network (sangat disarankan laptop terhubung via kabel ethernet, bukan wireless)
 2. ngrok dan authToken-nya yang didapat setelah daftar di website ngrok
-3. nginx yang terinstall di proxmox dan bisa diakses (http://localhost --> "Welcome to Nginx")
+3. nginx yang terinstall di proxmox dan bisa diakses (http://<ip proxmox> --> "Welcome to Nginx")
 4. tentu saja internet yang lancar 🤣
 
 okey berikut langkah-langkah nya:
